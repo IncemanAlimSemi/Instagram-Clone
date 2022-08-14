@@ -1,0 +1,20 @@
+/* Background Colors */
+
+.bg-white {
+    background-color: white;
+}
+
+/* Display */
+
+.dp-flex {
+    display: flex;
+}
+
+/* Container */
+
+.container {
+    max-width: 51%;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 20px;
+}

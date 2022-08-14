@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* Header */
+
+#header {
+    border-bottom: 1px solid #DBDBDB;
+}
+
+/* Navbar */
+
+#navbar {
+    background-color: white;
+    height: 3.3em;    
+    line-height: 3.3em;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#navbar .logo>img {
+    vertical-align: middle;
+}
+
+#navbar .search {
+    background-color: #FAFAFA;
+    width: 20em;
+    height: 2.5em;
+    margin-left: 19em;
+    border: 1px solid #DBDBDB;
+    border-radius: 0.5em;
+    text-align: center;
+    color: #808080;
+}
+
+#navbar .search:focus {
+    text-align: left;
+    outline: none !important;
+}
+
+#navbar span {
+    margin-left: 4em;
+}
+
+#navbar span a {
+    margin-left: 2em;
+}
+
+#navbar span a i {
+    transform: scale(1.6);
+    color: #252525;
+    vertical-align: middle;
+}
+
+#navbar .small-pp img {
+    width: 27px;
+    height: 27px;
+    border-radius: 100%;
+    outline: solid;
+    outline-width: 0.1em;
+    outline-offset: 0.1em;
+    vertical-align: middle;
+}
+
+/* Profile Information */
+
+#profile-information .informations {
+    height: 300px;
+    margin: auto 20px;
+    border-bottom: 1px solid #DBDBDB;
+}
+
+#profile-information .informations img {
+    width: 150px;
+    height: fit-content;
+    border-radius: 100%;
+    margin: auto 0;
+}
+
+#profile-information .informations .profile-settings {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+#profile-information .informations .profile-settings .name {
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10vh;
+    margin-bottom: 3vh; 
+}
+
+#profile-information .informations .profile-settings .name button {
+    padding: 0.5em 1em;
+    border: 1px solid #DBDBDB;
+    border-radius: 5px;
+    background-color: #FAFAFA;
+    margin-left: 2vh;
+
+}
+
+#profile-information .informations .profile-settings .name i {
+    margin-left: 2vh;
+    scale: 1.6;
+}
+
+#profile-information .informations .profile-settings .profile-statistics {
+    margin-left: 5vh;
+}
+
+#profile-information .informations .profile-settings .profile-statistics h5 {
+    font-size: large;
+    margin-left: 5vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
